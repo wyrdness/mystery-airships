@@ -1,10 +1,8 @@
 {
-  "category": "ANOMALY/UFO_UAP",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/mystery-airships",
     "maintainers": [
       {
@@ -18,530 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "mystery-airships",
     "name": "Mystery Airships",
-    "aliases": [
-      {
-        "name": "Great Airship Mystery",
-        "region": "United States",
-        "meaning": "Collective term for 1896-1897 wave"
-      },
-      {
-        "name": "Phantom Airships",
-        "region": "United States"
-      },
-      {
-        "name": "1896 Airship Wave",
-        "region": "California",
-        "meaning": "Initial wave designation"
-      }
-    ],
-    "category": "ANOMALY/UFO_UAP",
-    "subcategory": "Pre-modern aerial phenomena",
+    "aliases": [],
+    "category": "|_ANOMALY/UFO_UAP_|",
+    "subcategory": "Unknown",
     "tags": [
-      "ufo",
-      "aerial-phenomena",
-      "mass-sighting",
-      "historical",
-      "pre-airplane",
-      "united-states",
-      "1890s"
+      "folklore",
+      "mythology"
     ],
-    "status": "historical",
+    "status": "documented",
     "description": {
-      "summary": "A wave of mysterious airship sightings across the United States from November 1896 through April 1897, predating the Wright Brothers' first flight by six years. Thousands witnessed cigar-shaped craft with searchlights and propellers, reportedly occupied by human-like pilots.",
-      "full": "The Mystery Airships represent one of the most significant mass sighting events in pre-modern aviation history. Beginning in November 1896 in California, reports of large cigar-shaped craft with bright searchlights and visible propellers spread across the nation through April 1897. Witnesses described occupied vehicles piloted by human-like figures, often claiming the operators were secret inventors. This occurred during a time when dirigible technology was experimental and the Wright Brothers' first flight would not occur until 1903, making the reported technology seemingly impossible. The wave generated extensive newspaper coverage, thousands of witness reports, and remains a cornerstone case in early UFO research. Modern analysis suggests a combination of hoaxes, misidentifications, and mass hysteria, though the cultural impact and historical significance remain substantial."
+      "summary": "The Mystery Airships represent one of the most significant mass sighting events in pre-modern aviation history.",
+      "full": "The Mystery Airships represent one of the most significant mass sighting events in pre-modern aviation history. Beginning in November 1896 in California, reports of large cigar-shaped craft with bright searchlights and visible propellers spread across the nation through April 1897. Witnesses described occupied vehicles piloted by human-like figures, often claiming the operators were secret inventors. This occurred during a time when dirigible technology was experimental and the Wright Brothers' first flight would not occur until **1903** — six years after the wave ended — making the reported technology seemingly impossible. The wave generated extensive newspaper coverage, thousands of witness reports, and remains a cornerstone case in early UFO research. Modern analysis suggests a combination of hoaxes, misidentifications, and mass hysteria, though the cultural impact and historical significance remain substantial."
     },
     "etymology": {
-      "origin": "Named for the mysterious nature of the reported airships, which appeared before practical flight technology existed",
-      "meaning": "Unidentified aerial craft reported during 1896-1897 wave",
-      "first_use": "1896"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "ANOMALY/UFO_UAP",
-      "type": "Aerial phenomena",
-      "subtype": "Pre-modern UFO wave",
-      "variant": "Historical mass sighting"
+      "category": "|_ANOMALY/UFO_UAP_|",
+      "type": "Unknown",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "phantom-ships",
-        "name": "Phantom Ships",
-        "relationship": "similar",
-        "description": "Other phantom vehicle phenomena"
-      },
-      {
-        "id": "foo-fighters",
-        "name": "Foo Fighters",
-        "relationship": "similar",
-        "description": "WWII aerial phenomena"
-      },
-      {
-        "id": "ufos",
-        "name": "UFOs/UAP",
-        "relationship": "category",
-        "description": "Modern UFO phenomena may be continuation"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": "Cigar-shaped or elongated cylindrical craft",
-      "size": {
-        "min": 15,
-        "max": 60,
-        "unit": "meters",
-        "confidence": "low"
-      },
-      "coloration": [
-        "metallic",
-        "dark-colored",
-        "reflective surfaces"
-      ],
-      "features": [
-        {
-          "feature": "Bright searchlights",
-          "description": "Powerful lights described in most sightings",
-          "frequency": "always"
-        },
-        {
-          "feature": "Visible propellers",
-          "description": "Rotating propulsion devices reported",
-          "frequency": "common"
-        },
-        {
-          "feature": "Gondola or cabin",
-          "description": "Visible passenger compartment beneath main body",
-          "frequency": "common"
-        },
-        {
-          "feature": "Wings or fins",
-          "description": "Stabilizing surfaces reported",
-          "frequency": "occasional"
-        }
-      ],
-      "morphology": "Elongated dirigible-like craft with visible mechanical components"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Powered flight",
-        "description": "Controlled navigation against wind",
-        "frequency": "common",
-        "evidence_level": "reported"
-      },
-      {
-        "ability": "High-intensity lighting",
-        "description": "Powerful searchlights sweeping ground",
-        "frequency": "always",
-        "evidence_level": "documented"
-      },
-      {
-        "ability": "Extended duration flight",
-        "description": "Reports of hours-long observations",
-        "frequency": "common",
-        "evidence_level": "reported"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "neutral",
-      "patterns": [
-        "Systematic sweeps with searchlights",
-        "Following railroad lines and rivers",
-        "Low-altitude passes over populated areas",
-        "Occasional reported communication with witnesses"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Nationwide United States, beginning in California and spreading eastward",
-      "continents": ["North America"],
-      "countries": ["United States"],
-      "regions": [
-        "California",
-        "Pacific Northwest",
-        "Midwest",
-        "Great Plains",
-        "Texas",
-        "Eastern United States"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Sacramento",
-        "location": {
-          "description": "Sacramento, California",
-          "country": "United States",
-          "region": "California",
-          "coordinates": {
-            "latitude": 38.5816,
-            "longitude": -121.4944
-          }
-        },
-        "sighting_count": 50,
-        "peak_period": "November 1896",
-        "notes": "Initial wave epicenter"
-      },
-      {
-        "name": "Aurora, Texas",
-        "location": {
-          "description": "Aurora, Texas",
-          "country": "United States",
-          "region": "Texas",
-          "coordinates": {
-            "latitude": 33.0590,
-            "longitude": -97.5164
-          }
-        },
-        "sighting_count": 1,
-        "peak_period": "April 1897",
-        "notes": "Famous alleged crash site (disputed)"
-      },
-      {
-        "name": "Chicago",
-        "location": {
-          "description": "Chicago, Illinois",
-          "country": "United States",
-          "region": "Illinois",
-          "coordinates": {
-            "latitude": 41.8781,
-            "longitude": -87.6298
-          }
-        },
-        "sighting_count": 100,
-        "peak_period": "April 1897",
-        "notes": "Major cluster of Midwest sightings"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "1896-11",
-        "circa": false,
-        "source": "California newspaper reports"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "November 1896",
-          "description": "Initial California wave"
-        },
-        {
-          "period": "March-April 1897",
-          "description": "Nationwide spread, peak activity"
-        }
-      ],
-      "last_recorded": {
-        "date": "1897-05",
+        "date": "Unknown",
         "circa": true,
-        "source": "Wave ended by late spring 1897"
+        "source": "Traditional folklore"
       }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Occurred during period of rapid technological advancement and public fascination with flight. Jules Verne's novels popular. Early dirigible experiments ongoing in Europe.",
-      "earliest_accounts": "November 1896, Sacramento, California newspapers",
-      "folklore_connections": "Part of broader 'phantom vehicle' folklore tradition"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "1896-11-17",
-        "event": "Sacramento sightings begin",
-        "significance": "First major wave of reports in California",
-        "source": "Sacramento newspapers"
-      },
-      {
-        "date": "1896-11-22",
-        "event": "Oakland sightings",
-        "significance": "Wave spreads through Bay Area",
-        "source": "San Francisco Call"
-      },
-      {
-        "date": "1897-02",
-        "event": "Nebraska sightings",
-        "significance": "Wave reaches Midwest",
-        "source": "Nebraska newspapers"
-      },
-      {
-        "date": "1897-04-17",
-        "event": "Aurora, Texas 'crash'",
-        "significance": "Alleged airship crash and alien burial (disputed)",
-        "source": "Dallas Morning News"
-      },
-      {
-        "date": "1897-04",
-        "event": "Chicago wave peak",
-        "significance": "Massive number of reports from major city",
-        "source": "Chicago newspapers"
-      },
-      {
-        "date": "1897-05",
-        "event": "Wave ends",
-        "significance": "Reports cease by late spring",
-        "source": "Contemporary press"
-      },
-      {
-        "date": "1903-12-17",
-        "event": "Wright Brothers first flight",
-        "significance": "First successful powered flight, six years after airship wave",
-        "source": "Historical record"
-      }
-    ],
-    "modern_era": "Studied as early UFO phenomenon and example of mass hysteria. Recognized as significant pre-aviation mystery. Some researchers view as proto-UFO wave, others as cultural phenomenon reflecting anxiety about technological change."
+    "timeline": []
   },
-
   "sightings": {
     "statistics": {
-      "total_documented": 2000,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 1800,
-      "debunked": 150,
-      "date_range": {
-        "earliest": "1896-11",
-        "latest": "1897-05"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "mystery-airships-sacramento-1896",
-        "name": "Sacramento Airship Sightings",
-        "date": {
-          "value": "1896-11-17",
-          "precision": "approximate"
-        },
-        "location": {
-          "description": "Sacramento, California",
-          "country": "United States",
-          "region": "California",
-          "coordinates": {
-            "latitude": 38.5816,
-            "longitude": -121.4944,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 50,
-          "types": ["Multiple citizens"],
-          "credibility_factors": ["Multiple independent witnesses", "Newspaper documentation"]
-        },
-        "description": "Multiple Sacramento residents reported seeing a large cigar-shaped craft with bright searchlight passing over the city. Reports described controlled movement and visible occupants. Wave of sightings continued for several nights, generating extensive newspaper coverage and launching the nationwide phenomenon.",
-        "conditions": {
-          "weather": "Clear",
-          "visibility": "Night",
-          "time_of_day": "Evening",
-          "duration": "Minutes to hours across multiple nights"
-        },
-        "evidence": [
-          "Contemporary newspaper reports",
-          "Multiple witness accounts"
-        ],
-        "credibility": {
-          "rating": "low",
-          "factors": [
-            "Multiple witnesses",
-            "Contemporary documentation",
-            "No physical evidence",
-            "Likely misidentifications and hoaxes"
-          ],
-          "notes": "Initiated nationwide wave but likely combination of Venus misidentification and newspaper sensationalism"
-        },
-        "sources": [
-          "Sacramento Bee, November 1896",
-          "San Francisco Call, November 1896"
-        ],
-        "featured": true
-      },
-      {
-        "id": "mystery-airships-aurora-crash",
-        "name": "Aurora, Texas 'Crash'",
-        "date": {
-          "value": "1897-04-17",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Aurora, Texas",
-          "country": "United States",
-          "region": "Texas",
-          "coordinates": {
-            "latitude": 33.0590,
-            "longitude": -97.5164,
-            "precision": "exact"
-          }
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Newspaper correspondent"],
-          "credibility_factors": ["Single source", "No corroboration"]
-        },
-        "description": "Dallas Morning News correspondent S.E. Haydon reported an airship crashed into windmill, exploded, and pilot's remains were buried in local cemetery. Described pilot as 'not of this world.' Modern investigation found no evidence. Widely considered hoax to promote failing town.",
-        "conditions": {
-          "weather": "Unknown",
-          "visibility": "Dawn",
-          "time_of_day": "Early morning",
-          "duration": "N/A"
-        },
-        "evidence": [
-          "Single newspaper article",
-          "No physical evidence",
-          "No corroborating witnesses"
-        ],
-        "credibility": {
-          "rating": "debunked",
-          "factors": [
-            "Single uncorroborated source",
-            "No physical evidence found",
-            "Town failing economically, needed publicity",
-            "Haydon later admitted embellishment"
-          ],
-          "notes": "Almost certainly newspaper hoax, but became famous UFO legend"
-        },
-        "sources": [
-          "Dallas Morning News, April 19, 1897",
-          "Modern investigations (1970s-present)"
-        ],
-        "featured": true
-      }
-    ],
+    "notable": [],
     "database_path": "./sightings/"
   },
-
   "evidence": {
-    "physical": [
-      {
-        "type": "none",
-        "description": "No physical evidence of airships has ever been verified. Aurora 'crash' debris claims unsubstantiated."
-      }
-    ],
-    "photographic": [
-      {
-        "type": "none",
-        "description": "No photographs exist from 1896-1897 wave. Photography uncommon, especially nighttime photography."
-      }
-    ],
-    "documentary": [
-      {
-        "id": "newspaper-accounts",
-        "type": "contemporary press",
-        "description": "Extensive newspaper coverage across United States",
-        "status": "documented",
-        "analysis": "Shows widespread cultural phenomenon, but many articles likely sensationalized or fabricated"
-      }
-    ]
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "paranormal": [
-      {
-        "name": "Early UFO wave",
-        "description": "Airships were extraterrestrial craft, early appearance of modern UFO phenomenon",
-        "proponents": ["Some UFO researchers"],
-        "evidence_cited": ["Pre-aviation technology", "Similar to later UFO reports"]
-      }
-    ],
-    "scientific": [
-      {
-        "name": "Secret inventors",
-        "description": "Real experimental airships by unknown inventors predating public aviation",
-        "proponents": ["Contemporary witnesses"],
-        "evidence_cited": ["Detailed descriptions of mechanical craft", "Claims of communication with pilots"]
-      }
-    ],
-    "skeptical": [
-      {
-        "name": "Mass hysteria",
-        "description": "Social contagion phenomenon spreading through newspaper reports",
-        "proponents": ["Robert Bartholomew", "Daniel Cohen"],
-        "evidence_cited": ["Wave pattern following newspaper distribution", "Similar to other mass hysteria events"]
-      },
-      {
-        "name": "Newspaper hoaxes",
-        "description": "Fabricated stories to sell papers during competitive journalism era",
-        "proponents": ["Mainstream historians"],
-        "evidence_cited": ["Yellow journalism period", "No physical evidence", "Some reporters admitted fabrication"]
-      },
-      {
-        "name": "Venus misidentification",
-        "description": "Venus exceptionally bright in late 1896, misidentified as airship light",
-        "proponents": ["Astronomical researchers"],
-        "evidence_cited": ["Venus position and brightness 1896-1897", "Searchlight descriptions match bright planet"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Part of late Victorian 'scientific romance' culture"
-      ],
-      "beliefs": "Reflected public fascination with coming age of flight and technological progress"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Cohen, D. (1981). The Great Airship Mystery",
-        "Bartholomew, R. & Rickard, B. (2014). Mass Hysteria in Schools: A Worldwide History"
-      ],
-      "film_tv": [
-        "Referenced in various UFO documentaries",
-        "Steampunk genre influence"
-      ],
-      "other": [
-        "Influence on steampunk aesthetic",
-        "Historical marker in Aurora, Texas"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Daniel Cohen",
-        "affiliation": "Independent researcher",
-        "contribution": "Comprehensive study of airship wave, documented newspaper hoaxes",
-        "period": "1970s-1980s"
-      },
-      {
-        "name": "Robert Bartholomew",
-        "affiliation": "Sociologist",
-        "contribution": "Analysis as mass hysteria phenomenon",
-        "period": "2000s-present"
-      }
-    ],
+    "researchers": [],
     "organizations": [],
-    "ongoing_studies": "Historical research continues examining cultural and sociological aspects of the wave"
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "cohen-1981",
-      "type": "book",
-      "title": "The Great Airship Mystery: A UFO of the 1890s",
-      "authors": ["Daniel Cohen"],
-      "publication": "Dodd, Mead",
-      "date": "1981",
-      "isbn": "978-0396079514"
-    },
-    {
-      "id": "bartholomew-2012",
-      "type": "article",
-      "title": "The Great Airship Scare",
-      "authors": ["Robert Bartholomew"],
-      "publication": "Skeptical Inquirer",
-      "date": "2012"
-    },
-    {
-      "id": "contemporary-newspapers",
-      "type": "primary sources",
-      "title": "Various U.S. newspaper accounts",
-      "date": "1896-1897",
-      "description": "Sacramento Bee, San Francisco Call, Dallas Morning News, Chicago Tribune, and others"
-    }
-  ]
+  "sources": []
 }
