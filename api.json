@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/mystery-airships",
     "maintainers": [
       {
@@ -16,111 +16,347 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "mystery-airships",
-    "name": "Mystery Airships",
-    "aliases": [],
-    "category": "|_ANOMALY/UFO_UAP_|",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Mystery Airships (1896-1897)",
+    "aliases": [
+      { "name": "1896-1897 airship wave", "region": "United States" },
+      { "name": "Great Airship Mystery", "region": "United States" }
     ],
-    "status": "documented",
+    "category": "UFO_UAP",
+    "subcategory": "Pre-modern UFO wave",
+    "tags": [
+      "ufo-precursor",
+      "1896",
+      "1897",
+      "airship",
+      "mass-sighting",
+      "yellow-journalism",
+      "california",
+      "midwest"
+    ],
+    "status": "historical",
     "description": {
-      "summary": "The Mystery Airships represent one of the most significant mass sighting events in pre-modern aviation history.",
-      "full": "The Mystery Airships represent one of the most significant mass sighting events in pre-modern aviation history. Beginning in November 1896 in California, reports of large cigar-shaped craft with bright searchlights and visible propellers spread across the nation through April 1897. Witnesses described occupied vehicles piloted by human-like figures, often claiming the operators were secret inventors. This occurred during a time when dirigible technology was experimental and the Wright Brothers' first flight would not occur until **1903** — six years after the wave ended — making the reported technology seemingly impossible. The wave generated extensive newspaper coverage, thousands of witness reports, and remains a cornerstone case in early UFO research. Modern analysis suggests a combination of hoaxes, misidentifications, and mass hysteria, though the cultural impact and historical significance remain substantial."
+      "summary": "The 'Mystery Airships' wave of 1896-1897 was a major pre-aviation mass sighting episode in which thousands of Americans reported large cigar-shaped craft with searchlights and propellers crossing the night sky, beginning over Sacramento, California in November 1896 and spreading across much of the United States by April 1897.",
+      "full": "Beginning on the night of November 17, 1896 in Sacramento, California, witnesses began reporting a large illuminated craft moving slowly through the night sky at approximately 1,000 feet altitude. Sightings spread rapidly across California (Sacramento, San Francisco, Oakland, Stockton, San Jose, Los Angeles, San Diego) and were extensively covered in regional newspapers including the Sacramento Bee, the San Francisco Call, the San Francisco Chronicle and the San Francisco Examiner. The wave then jumped to the Midwest in February 1897 (Nebraska sightings around February 2-5) and peaked in March-April 1897 with reports from Kansas (Topeka sighting witnessed by Governor John W. Leedy and several hundred people on March 28), Michigan, Missouri, Texas, and elsewhere. The most famous tall tales of the episode include the alleged April 17, 1897 Aurora, Texas crash (reported in the Dallas Morning News on April 19) and Alexander Hamilton's April 1897 cattle-abduction story, which Jerome Clark debunked in 1977 by obtaining Hamilton's affidavit confirming it was a fabrication for a Liars' Club competition. William Randolph Hearst, in a December 5, 1896 editorial, called the airship story 'pure myth' produced by 'fake journalism'. The phenomenon disappeared from public consciousness after 1897 and was rediscovered by UFO investigators in the 1960s, who reframed it as a precursor to the modern UFO wave that began in the late 1940s. Historian Mike Dash summarised the modern consensus: many simpler sightings were misidentifications of planets and stars, and many of the more elaborate reports were hoaxes and yellow-journalism tall tales."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "American English 'mystery airship', as used in 1896-1897 newspaper coverage and revived in 1960s UFO writing.",
+      "meaning": "Unidentified airship-like craft seen in 1896-1897 over the United States, before any practical heavier-than-air aircraft existed.",
+      "first_use": "November 1896, in California newspaper coverage."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_ANOMALY/UFO_UAP_|",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "UFO_UAP",
+      "type": "Mass-sighting wave",
+      "subtype": "Pre-aviation airship sightings",
+      "variant": "American (1896-1897)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "foo-fighters", "name": "Foo fighters", "relationship": "related", "description": "Later WWII-era unexplained aerial phenomena" },
+      { "id": "ghost-rockets", "name": "Ghost rockets", "relationship": "related", "description": "1946 Scandinavian unexplained aerial phenomena wave" },
+      { "id": "ufo-uap", "name": "UFO/UAP phenomena", "relationship": "superset", "description": "The wider category, of which the 1896-1897 airships are now considered a precursor" },
+      { "id": "phantom-armies", "name": "Phantom airships (UK 1909, 1913)", "relationship": "similar", "description": "Later British 'phantom airship' wave" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["bright searchlight", "red, white and blue lights (in some reports)"],
+      "features": [
+        { "feature": "Cigar-shaped or elongated body", "description": "Most accounts described a long, cylindrical airship-like craft", "frequency": "common" },
+        { "feature": "Bright searchlight", "description": "A powerful forward-facing searchlight is reported in the great majority of accounts", "frequency": "common" },
+        { "feature": "Visible propellers and wings", "description": "Some accounts describe propellers, wings, or dirigible-like fins", "frequency": "occasional" },
+        { "feature": "Coloured running lights", "description": "Red, white and blue lights reported (e.g. by 100+ Tulare residents on November 29, 1896)", "frequency": "occasional" }
+      ],
+      "morphology": "Reported as roughly dirigible / airship in form, with a long body, propellers, lights and a searchlight; sometimes described as carrying an occupied gondola or cabin."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Slow controlled flight", "description": "Reports describe the craft moving slowly and with apparent control, often against the wind", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Landing capability", "description": "A minority of reports describe the craft landing and crew members emerging or attempting to interact with witnesses", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "unknown",
+      "habitat_preference": ["sky over inhabited regions of the western and central United States"],
+      "patterns": [
+        "Most reports at night, focused around major lights",
+        "Wave moved geographically west-to-east from California to the Midwest",
+        "Reports increased after major newspaper coverage in any given region (suggestive of contagion / hoaxing)"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reports spread across California beginning in November 1896, reached Arizona Territory, Nevada, Oregon, Washington and British Columbia, and then jumped to the Midwest (Nebraska, Kansas, Missouri, Texas, Oklahoma, Arkansas, Wisconsin, Michigan, Minnesota) in February-April 1897, with thousands of reported sightings.",
+      "continents": ["North America"],
+      "countries": ["United States", "Canada"],
+      "regions": [
+        "California",
+        "Pacific Northwest",
+        "Midwest",
+        "Texas",
+        "Kansas",
+        "Nebraska",
+        "Michigan"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Sacramento, California",
+        "location": {
+          "description": "Sacramento and surrounding area",
+          "country": "United States",
+          "region": "California",
+          "coordinates": { "latitude": 38.5816, "longitude": -121.4944 }
+        },
+        "peak_period": "November 17-21, 1896",
+        "notes": "Origin of the wave; sightings included the deputy sheriff and district attorney"
+      },
+      {
+        "name": "Aurora, Texas",
+        "location": {
+          "description": "Aurora, Wise County, Texas",
+          "country": "United States",
+          "region": "Texas",
+          "coordinates": { "latitude": 33.0584, "longitude": -97.5161 }
+        },
+        "peak_period": "April 17-19, 1897",
+        "notes": "Site of the famous (and almost certainly fictional) airship crash story"
+      },
+      {
+        "name": "Topeka, Kansas",
+        "location": {
+          "description": "Topeka, Kansas",
+          "country": "United States",
+          "region": "Kansas",
+          "coordinates": { "latitude": 39.0473, "longitude": -95.6752 }
+        },
+        "peak_period": "March 28, 1897",
+        "notes": "Sighting witnessed by Governor John W. Leedy and several hundred people"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1896-11-17",
+        "circa": false,
+        "source": "Sacramento, California sighting; Sacramento Bee and contemporaries"
+      },
+      "peak_activity_periods": [
+        { "period": "November 1896 - January 1897", "description": "California / Pacific Coast wave" },
+        { "period": "February - April 1897", "description": "Midwest wave culminating in the Aurora, Texas and Hamilton stories" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Late 19th-century American fascination with practical airship technology (Edison and others were said by some witnesses to be the secret inventor); yellow-journalism press culture.",
+      "earliest_accounts": "Sacramento, California, November 17, 1896.",
+      "folklore_connections": "Identified by 1960s UFO writers as a precursor to the modern UFO wave."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1896-11-17", "event": "First widely reported sighting in Sacramento, California; witnesses describe a moving light at approximately 1,000 feet altitude", "significance": "Start of the wave", "source": "Wikipedia: Mystery airship; Sacramento Bee (1896-11-18)" },
+      { "date": "1896-11-19", "event": "Colonel H. G. Shaw near Lodi, California, reports an encounter with three slender beings who attempt to force him aboard a landed craft", "significance": "Famous early 'occupant' report", "source": "Wikipedia: Mystery airship" },
+      { "date": "1896-11-21", "event": "Light reappears over Sacramento; observers include the deputy sheriff and district attorney; sightings spread across California", "significance": "Wave broadens in California", "source": "Wikipedia: Mystery airship" },
+      { "date": "1896-11-29", "event": "Over 100 Tulare residents report seeing red, white and blue lights from the airship in succession", "significance": "Mass-sighting incident", "source": "Wikipedia: Mystery airship" },
+      { "date": "1896-12-05", "event": "William Randolph Hearst publishes editorial calling the airship story 'pure myth' produced by 'fake journalism'", "significance": "Major contemporary skeptical voice", "source": "Wikipedia: Mystery airship" },
+      { "date": "1897-02-02", "event": "Sightings reported near Hastings and Inavale, Nebraska", "significance": "Wave jumps to the Midwest", "source": "Wikipedia: Mystery airship" },
+      { "date": "1897-03-28", "event": "Topeka, Kansas sighting witnessed by Governor John W. Leedy and several hundred people", "significance": "High-profile witnesses", "source": "Wikipedia: Mystery airship" },
+      { "date": "1897-04-17", "event": "Alleged Aurora, Texas crash on Judge Proctor's property; reported in the Dallas Morning News on April 19", "significance": "Most-cited 'crash' story of the wave; almost certainly fictional", "source": "Dallas Morning News (1897-04-19); Wikipedia: Mystery airship" },
+      { "date": "1897-04-23", "event": "Alexander Hamilton of Leroy, Kansas, publishes account of an airship's red 'cable' lassoing a heifer from his pen and lifting it away", "significance": "Most-cited 'abduction' story of the wave", "source": "Yates Center Farmer's Advocate (1897)" },
+      { "date": "1903-12-17", "event": "Wright brothers' first powered, controlled, sustained heavier-than-air flight at Kitty Hawk", "significance": "Demonstrates the technology described in 1896-1897 reports did not exist contemporaneously", "source": "Standard aviation history" },
+      { "date": "1977-01-01", "event": "Jerome Clark obtains Alexander Hamilton's own affidavit confirming the 1897 cattle-abduction story was a fabrication for a Liars' Club competition", "significance": "Definitive debunking of the most-cited 'abduction' story", "source": "Clark, J. (1977), per Wikipedia: Mystery airship" }
+    ],
+    "modern_era": "Since the 1960s, UFO writers have re-cast the 1896-1897 airship wave as a precursor to the post-1947 UFO phenomenon. Modern academic treatments — Robert E. Bartholomew on mass hysteria, Mike Dash, David Michael Jacobs, Daniel Cohen, Gregory L. Reece, and Jerome Clark — generally treat the wave as a combination of misidentifications, hoaxes, and yellow-journalism tall tales, while acknowledging its cultural influence on American UFO mythology."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1896-11-17", "latest": "1897-06" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "mystery-airships-1896-11-17-sacramento",
+        "name": "Sacramento first sighting",
+        "date": { "value": "1896-11-17", "precision": "exact" },
+        "location": {
+          "description": "Sky over Sacramento, California",
+          "country": "United States",
+          "region": "California",
+          "locality": "Sacramento",
+          "coordinates": { "latitude": 38.5816, "longitude": -121.4944, "precision": "approximate" }
+        },
+        "witnesses": { "count": 0, "types": ["Multiple Sacramento residents"], "credibility_factors": ["Multiple independent witnesses", "Newspaper documentation"] },
+        "description": "Witnesses reported a strange flying light moving slowly across the sky at approximately 1,000 feet altitude. The Sacramento Bee published the account the following day under headlines including 'A Wandering Apparition' and 'Claim They Saw a Flying Airship'.",
+        "credibility": { "rating": "low", "factors": ["Pre-aviation era; no known craft capable of the reported behaviour", "Likely misidentification of an astronomical object"], "notes": "First widely reported sighting of the wave." },
+        "sources": ["Sacramento Bee (1896-11-18)", "Wikipedia: Mystery airship"],
+        "featured": true
+      },
+      {
+        "id": "mystery-airships-1897-03-28-topeka",
+        "name": "Topeka sighting (Governor Leedy and witnesses)",
+        "date": { "value": "1897-03-28", "precision": "exact" },
+        "location": {
+          "description": "Sky over Topeka, Kansas",
+          "country": "United States",
+          "region": "Kansas",
+          "locality": "Topeka",
+          "coordinates": { "latitude": 39.0473, "longitude": -95.6752, "precision": "approximate" }
+        },
+        "witnesses": { "count": 200, "types": ["Kansas Governor John W. Leedy", "Several hundred Topeka residents"], "credibility_factors": ["State-level political witness", "Mass observation"] },
+        "description": "A bright moving light was observed over Topeka by Kansas Governor John W. Leedy and several hundred residents.",
+        "credibility": { "rating": "low", "factors": ["High-profile witness, but consistent with misidentification of bright planet (Venus) or wave-driven hoax"], "notes": "One of the most-cited Midwestern incidents of the wave." },
+        "sources": ["Wikipedia: Mystery airship"],
+        "featured": true
+      },
+      {
+        "id": "mystery-airships-1897-04-17-aurora-texas",
+        "name": "Aurora, Texas crash story",
+        "date": { "value": "1897-04-17", "precision": "exact" },
+        "location": {
+          "description": "Judge Proctor's property near Aurora, Wise County, Texas",
+          "country": "United States",
+          "region": "Texas",
+          "locality": "Aurora",
+          "coordinates": { "latitude": 33.0584, "longitude": -97.5161, "precision": "approximate" }
+        },
+        "witnesses": { "count": 0, "types": ["Anonymous newspaper sources"], "credibility_factors": ["Newspaper account only", "No surviving physical evidence"] },
+        "description": "The Dallas Morning News, on April 19 1897, published an account of an airship striking Judge Proctor's windmill at Aurora, Texas. The 'pilot' was said to be 'not an inhabitant of this world', and the wreckage was said to display 'hieroglyphic figures' and to be made of a metal resembling 'a mixture of aluminum and silver'. No physical evidence has ever been recovered.",
+        "credibility": { "rating": "unverified", "factors": ["No physical wreckage recovered", "Clear hallmarks of yellow-journalism tall tale", "Modern investigations have not corroborated the account"], "notes": "Most-famous 'crash' story of the wave, widely regarded as a hoax." },
+        "sources": ["Dallas Morning News (1897-04-19)", "Wikipedia: Mystery airship"],
+        "featured": true
+      },
+      {
+        "id": "mystery-airships-1897-04-hamilton-cattle",
+        "name": "Hamilton 'cattle abduction' story",
+        "date": { "value": "1897-04-23", "precision": "exact" },
+        "location": {
+          "description": "Farm of Alexander Hamilton, Leroy, Kansas",
+          "country": "United States",
+          "region": "Kansas",
+          "locality": "Leroy"
+        },
+        "witnesses": { "count": 1, "types": ["Alexander Hamilton (self-reported)"], "credibility_factors": ["Affidavit later admitted by Hamilton to be fabricated"] },
+        "description": "Alexander Hamilton of Leroy, Kansas, reported in the Yates Center Farmer's Advocate that an airship had lowered a red 'cable' which lassoed a heifer from his pen, then lifted away with 'ship, cow and all'. In 1977, Jerome Clark obtained Hamilton's own affidavit confirming the story was a fabrication for a Liars' Club competition.",
+        "credibility": { "rating": "unverified", "factors": ["Confirmed hoax by Hamilton himself", "Hamilton was a member of a Liars' Club that competed at tall tales"], "notes": "Most-famous 'abduction' story of the wave; conclusively debunked by Clark in 1977." },
+        "sources": ["Yates Center Farmer's Advocate (1897)", "Clark, J. (1977), per Wikipedia: Mystery airship"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "mystery-airships-evidence-newspaper-archive",
+        "type": "newspaper archive",
+        "name": "1896-1897 mystery-airship newspaper coverage",
+        "description": "Extensive 1896-1897 reporting in the Sacramento Bee, San Francisco Call, San Francisco Chronicle, San Francisco Examiner, Dallas Morning News, Omaha Bee, St. Louis Post-Dispatch, Yates Center Farmer's Advocate, and many regional papers.",
+        "status": "verified",
+        "analysis": "Primary documentation of the wave; mixture of credulous reporting and openly yellow-journalism tall tales.",
+        "source": "Various newspaper archives; collated in modern works (Bartholomew, Clark, Dash, Busby)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Extraterrestrial craft (modern UFO reading)",
+        "description": "Some 20th-century UFO researchers have re-interpreted the 1896-1897 airships as early visits by extraterrestrial craft, treating the wave as a precursor to the post-1947 UFO phenomenon.",
+        "proponents": ["Various 1960s-1970s UFO writers"],
+        "evidence_cited": ["Volume and consistency of reports", "Reported impossibility of the technology in 1896-1897"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Misidentification of astronomical objects",
+        "description": "Many simpler sightings can be attributed to misidentification of bright planets and stars (Alpha Orionis / Betelgeuse, Jupiter, Venus, and Mars all featured in modern analyses).",
+        "proponents": ["Mike Dash", "Robert E. Bartholomew"],
+        "evidence_cited": ["Pattern of sightings consistent with bright planetary apparitions", "Repeated misidentifications in similar later episodes"]
+      },
+      {
+        "name": "Mass hysteria / sociological model",
+        "description": "Robert E. Bartholomew and others have analysed the wave as a textbook case of mass hysteria, with newspaper coverage seeding new sightings in successive regions.",
+        "proponents": ["Robert E. Bartholomew"],
+        "evidence_cited": ["West-to-east geographic propagation", "Spike in reports following each region's first newspaper coverage"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Hoaxes and yellow-journalism tall tales",
+        "description": "A significant share of the more elaborate accounts are clearly hoaxes — most notoriously Alexander Hamilton's 1897 cattle-abduction story (debunked by Hamilton's own affidavit obtained by Jerome Clark in 1977) and the Aurora, Texas crash story (no physical evidence; classic tall-tale hallmarks). William Randolph Hearst's December 5, 1896 editorial called the airship story 'pure myth' produced by 'fake journalism'.",
+        "proponents": ["Jerome Clark", "William Randolph Hearst (1896 editorial)", "David Michael Jacobs"],
+        "evidence_cited": ["Hamilton affidavit", "Absence of any physical evidence from Aurora", "Newspaper writers' tongue-in-cheek tone in many accounts"]
+      },
+      {
+        "name": "Secret-inventor hypothesis (rebutted by aviation history)",
+        "description": "Contemporary speculation often credited a secret inventor (Edison was forced to issue a public denial in 1897); modern proponents like Michael Busby and J. Allan Danelek have argued for actual experimental airships, but this hypothesis is not supported by aviation history — practical heavier-than-air flight was first demonstrated by the Wright brothers on December 17, 1903.",
+        "proponents": ["Michael Busby", "J. Allan Danelek"],
+        "evidence_cited": ["Reported propellers and wings in some accounts", "Geographic west-to-east progression along railway corridors"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "American yellow-journalism tradition",
+        "Late 19th-century American 'secret inventor' folklore"
+      ],
+      "stories": [
+        "The Aurora, Texas crash",
+        "The Alexander Hamilton cattle-abduction tall tale",
+        "Colonel H. G. Shaw's encounter with three slender beings near Lodi"
+      ],
+      "beliefs": "Modern academic consensus treats the wave as a combination of misidentifications, mass hysteria, and yellow-journalism hoaxes; UFO communities re-frame it as a precursor to modern UFO experience."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "The Great Airship Mystery: A UFO of the 1890s — Daniel Cohen (1981)",
+        "UFOs in the 1980s (and predecessors) — Jerome Clark",
+        "The 1897 Airship Mystery: A New Solution — Michael Busby (2004)",
+        "Mass hysteria scholarship — Robert E. Bartholomew"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "Aurora, Texas, holds an annual 'Aurora Alien Festival' tied to the 1897 crash story"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Jerome Clark", "affiliation": "UFO encyclopedia author (independent)", "contribution": "1977 debunking of the Alexander Hamilton cattle-abduction story; UFO encyclopedic coverage of the wave", "period": "1970s-present" },
+      { "name": "Robert E. Bartholomew", "affiliation": "Sociologist / author (independent)", "contribution": "Mass-hysteria analysis of the 1896-1897 airship wave", "period": "1990s-present" },
+      { "name": "Mike Dash", "affiliation": "Independent historian", "contribution": "Borderlands phenomena and analysis of the airship wave", "period": "1990s-present" },
+      { "name": "David Michael Jacobs", "affiliation": "Temple University (history)", "contribution": "Historical UFO research including 1896-1897 wave analysis", "period": "1970s-present" },
+      { "name": "Daniel Cohen", "affiliation": "Independent author", "contribution": "Book-length popular treatment of the airship mystery", "period": "1980s" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Continuing historical and sociological work, particularly on yellow journalism, mass hysteria, and the prehistory of UFO discourse."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-mystery-airship", "type": "website", "title": "Mystery airship", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mystery_airship", "accessed": "2026-05-07" },
+    { "id": "cohen-1981", "type": "book", "title": "The Great Airship Mystery: A UFO of the 1890s", "authors": ["Daniel Cohen"], "publication": "Dodd, Mead", "date": "1981" },
+    { "id": "busby-2004", "type": "book", "title": "Solving the 1897 Airship Mystery", "authors": ["Michael Busby"], "publication": "Pelican Publishing", "date": "2004", "isbn": "978-1589801257" }
+  ]
 }
